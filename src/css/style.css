@@ -1,0 +1,47 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-qrcode {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    height: 500px;
+    border-radius: 30px 24px;
+    margin: 65px 20px 20px;
+
+}
+
+.img-card img {
+    display: flex;
+    padding: 15px 20px 20px 15px;
+    height: 325px;
+    width: 320px;
+    border-radius: 35px;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h2 {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 5px 15px 15px 15px;
+
+}
+
+.info p {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    padding: 3px 19px;
+}

@@ -1,0 +1,21 @@
+@media(max-width:900px) {
+  .card-qrcode {
+    max-width: 280px;
+    height: 450px;
+    margin-top: 55px;
+  }
+
+  .img-card img {
+    height: 300px;
+    width: 280px;
+  }
+
+  .info h2 {
+    font-size: 19px;
+  }
+
+  .info p {
+    font-size: 14px;
+  }
+
+}
